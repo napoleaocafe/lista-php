@@ -1,0 +1,228 @@
+@charset "UTF-8";
+#fundo{
+background-image: url("../img/fundo.jpg");
+min-height: 400px;
+background-attachment: fixed;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.move-aling{
+display: flex;
+flex-direction:row; 
+justify-content: center;
+align-items: center;
+}
+#content{
+    padding: 5px;
+    width: 85%;
+    height: 400px;
+    background-color: #fff; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+/* Parte do cabeçalho com logo {*/
+    #header{
+    padding: 5px;
+    width: 85%;
+    height: 150px;
+    background-color: #fff; 
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    .img-logo{
+    background-repeat: no-repeat;
+    background-image: url("../img/brand.png");
+    width: 300px;
+    height: 150px;
+    }
+    .space{
+    height: 20px;
+    }
+/* } */
+/* tabela { */
+    #table{
+    width: 100%;
+     display: block; 
+     font-family: arial;
+     margin-top: 40px;
+     border-collapse: collapse; 
+     padding: 5px;
+     height: 300px;
+    overflow-y: auto;
+    }
+    #table th{
+        height: 40px;
+        background-color: #7da7bd; 
+        color: #fff; 
+        text-align: center;
+ 
+    }
+    
+    #table td{
+        height: 40px;
+        text-align: center;
+        font-family: arial;
+    }
+
+
+        .habilitado{
+        color: rgb(53, 141, 163); 
+        background-color: #c0e7ff; 
+        border-bottom: 1px solid #000;
+        }
+        .habilitado:hover{
+        background-color: #75caff;
+        color: rgb(0, 0, 0);     
+        }
+        .desabilitado{
+        color: rgb(163, 53, 53); 
+        background-color: #ffa2a2; 
+        border-bottom: 1px solid #000;
+        }
+    #confirm{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+/* } */
+.msg{
+width: 30%;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.erro{
+    background-color: rgb(255, 166, 166);
+border:2px dashed rgb(255, 0, 0);
+}
+.ok{
+    background-color: rgb(187, 255, 166);
+    border:2px dashed rgb(3, 182, 3); 
+}
+
+.lupa{
+        width: 40px;
+        height: 80%;
+    }
+.edit{
+        width: 40px;
+        height: 100%;
+    }
+    .bloq{
+        width: 25%;
+        height: 70%;
+    }
+
+    #head{
+     width: 100%;
+     background-color: rgb(19, 97, 170); 
+     color: #fff;  
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    #move-select{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .select{
+        height: 30px;
+    }
+
+    #pesq{
+        width: 35px;
+        height: 35px;
+    } 
+    .text-color{
+        color: rgb(67, 174, 201);
+        font-size: 14pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    span{
+        font-weight: bold;
+        font-size: 12pt;
+    }
+
+    .inp{
+        height: 35px;
+        width: 100%;
+        background-color: rgb(166, 233, 180);
+        color: red;
+    }
+    #pesquisaUser{
+        border: 2px solid rgb(19, 97, 170);
+        width: 200px;
+        border-radius: 6px; 
+    }
+    #flex-inp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .move-inp{
+        height: 70px;
+        display: flex;
+        width: 100%;
+    }
+.form{
+    width: 80%;
+}
+.alt{
+height: 35px;
+}
+
+.btn-style{
+margin-top: 10px;
+color: #fff;
+background-color: rgb(19, 97, 170); 
+border:3px solid rgb(19, 97, 170); 
+height: 30px;
+width: 60px;
+border-radius: 6px;
+}
+
+.modal-header{
+background-color: rgb(19, 97, 170); 
+text-align: center;
+color: #fff;
+}
+.modal-body{
+    color: rgb(53, 141, 163);
+}
+
+.modal-footer{
+    background-color: rgb(19, 97, 170);  
+}
+
+.hid{
+display: none;
+}
+
+.blk{
+display: block;    
+}
+
